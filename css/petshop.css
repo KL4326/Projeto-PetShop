@@ -120,3 +120,52 @@ form textarea {
 iframe {
     width: 100%;
 }
+
+footer {
+    background-color: #bdff9c;
+    height: 500px;
+}
+
+.instagram {
+    align-items: flex-end;
+    width: 30px;
+    padding: 10px;
+    vertical-align: middle;
+}
+
+.facebook {
+    width: 30px;
+    padding: 10px;
+    vertical-align: middle;
+}
+
+.cadastrar {
+    margin: auto;
+    text-align: center;
+}
+
+.rede {
+    position: relative;
+    position: absolute;
+    margin-right: 10px;
+    margin-top: 2px;
+}
+
+.copy {
+    margin-top: 100px;
+}
+
+.cachorro {
+    width: 100px;
+    height: 100px;
+    margin-top: 3px;
+    margin-left: 50px;
+}
+
+.dogs_footer {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    position: absolute;
+    margin-left: 1680px;
+}

@@ -162,10 +162,44 @@ footer {
     margin-left: 50px;
 }
 
-.dogs_footer {
-    width: 100px;
-    height: 100px;
-    position: relative;
-    position: absolute;
-    margin-left: 1680px;
+
+@media screen and (max-width: 580px) {
+    
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding-left: 10px;
+        padding-right: 20px;
+        width: 450px;
+    }
+
+    #produto {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .flex-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .produto {
+        padding-left: 120px;
+        padding-top: 50px;
+    }
+
+    .texto-centralizado {
+        padding-right: 10px;
+    }
+
+    form {
+        padding-top: 30px;
+        padding-left: 20px;
+    }
+
+    .col {
+        padding-top: 50px;
+    }
 }
